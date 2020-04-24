@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*body {
+    background: linear-gradient(to bottom right, #cc0000 0%, #000066 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    /*width: 100vh;
+}
+
+/*.pic {
+    text-align: center;
+    position: relative;
+    top: 5px;
+}
+
+.arrow {
+	float: right;
+	margin-top: 52px;
+	margin-right: 5px;
+}
+
+.Arrow2 {
+	float: left;
+	margin-left: 5px;
+	margin-top: 52px;
+}
+
+.attributes {
+    text-align: center;
+    font-size: 35px;
+    font-family: "special elite";
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: red;
+}
+
+a:visited {
+	color: blue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "special elite";
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "special elite";
+}
+
+@media (max-width: 600px) {
+
+	.attributes {
+		font-size: 25px;
+	}
+
+	.arrow {
+		float:right;
+		margin-right: 10px;
+		margin-top: 0px;
+	}
+
+	a:visited {
+		color: black;
+	}
+	
+	.Arrow2 {
+		float: left;
+		margin-left: 5px;
+		margin-top: 0px;
+    }
+
+    .pic {
+        height: 100%;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+  }
+  */
+
+
+
+  body {
+    background: linear-gradient(to bottom right, #cc0000 0%, #000066 100%); 
+    height: 100vh;
+    width: 100%;
+}
+
+.attributes {
+    font-family: "special elite";
+    font-size: 30px;
+    text-align: center;
+}
+
+.arrow {
+	float: right;
+	margin-right: 5px;
+	margin-top: 40px;
+}
+
+.Arrow2 {
+	float: left;
+	margin-left: 5px;
+	margin-top: 40px;
+}
+
+.pic {
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: blue;
+}
+
+.TextBox {
+	/*border: 2px;
+	border: black;
+	border: solid;*/
+	width: 100%;
+	margin: auto;
+
+}
+
+h1 {
+    font-family: "special elite";
+    font-size: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "special elite";
+    font-size: 30px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+	.About {
+		font-size: 35px;
+	}
+
+	.arrow {
+		float:right;
+		margin-right: 10px;
+		margin-top: 50px;
+	}
+
+	a:visited {
+		color: black;
+	}
+	
+	.Arrow2 {
+		float: left;
+		margin-left: 5px;
+		margin-top: 50px;
+	}
+  }
